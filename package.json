@@ -1,0 +1,36 @@
+{
+  "name": "vue-markdown-component",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "Mauro Oliveira",
+    "email": "mauroviniciussilva@gmail.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.5.95",
+    "core-js": "^3.6.5",
+    "dompurify": "^2.3.6",
+    "marked": "^4.0.12",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/marked": "^4.0.2",
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^10.1.1"
+  }
+}
